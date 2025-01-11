@@ -41,7 +41,7 @@ const LoginValidation = () => {
 
   return (
     <>
-      <div className="container-fluid d-flex align-items-center justify-content-center min-vh-100 bg-light">
+      <div className="container-fluid d-flex align-items-center justify-content-center min-vh-100 bg-light play-regular">
       <div className="row w-100" style={{maxWidth: '900px',boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',}}>
           <div className="col-md-6 p-4">
             <div className="card-body">
@@ -75,12 +75,12 @@ const LoginValidation = () => {
                     onChange={handleChange}
                   />
                 </div>
-                <button type="submit" className="btn bg-black text-white w-100">
+                <button type="submit" className="btn bg-black text-white w-100 ">
                   Login
                 </button>
               </form>
               <div className="mt-3 text-center">
-                <a href="#" className="text-decoration-none text-primary">
+                <a href="/forgot-password" className="text-decoration-none text-primary">
                   Forgot Password?
                 </a>
               </div>
