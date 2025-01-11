@@ -1,12 +1,12 @@
 import React from 'react'
 import Nav from './Nav'
-
-const Home = () => {
+const Contact = () => {
   return (
     <>
     <Nav />
+    contact us
     </>
   )
 }
 
-export default Home
+export default Contact
